@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8fa6b8b1-17b3-4316-b1c7-123bc0fe7186}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ax-invaders.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <AssemblyName>ax-invaders</AssemblyName>
+    <Name>ax-invaders</Name>
+    <RootNamespace>ax-invaders</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>2af0f10d-7135-4994-9156-5d01c9c11b7e</InterpreterId>
+    <InterpreterVersion>3.2</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ax-invaders.py" />
+    <Compile Include="GameOver.py" />
+    <Compile Include="Gameplay.py" />
+    <Compile Include="LevelScreen.py" />
+    <Compile Include="MainMenu.py" />
+    <Compile Include="HighScores.py" />
+    <Compile Include="miscellanea.py" />
+    <Compile Include="SoundFX.py" />
+    <Compile Include="vector.py" />
+  </ItemGroup>
+</Project>
